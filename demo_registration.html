@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo_Class_Registration</title>
+    <link rel="icon" href="tap.jfif">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <img src="tap_logo.png" alt="Tap_logo" width="200px" height="100px">
+            <a href="#">Home</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="" id="">
+                <option value="">Courses</option>
+                <option value=""><a href="C:\Users\lenovo\Desktop\HTML_project\html_project\full_stack.html">Full
+                        Stack Web Development(JAVA)</a></option>
+                <option value="DSA"><a href="DSA.html">Data Structure and Algorithms</a></option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="student reviews.html">Students Reviews</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Hire_From_Us.html">Hire From
+                Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="contact.html"> Contact
+                Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </nav>
+    </header>
+    <form>
+        <fieldset>
+            <h1>Enter your details</h1>
+            <label for="name">Name</label>
+            <input type="text" id="name" required pattern="[A-Za-z]{3,25}" placeholder="Enter your name"><br><br>
+            <label for="Email">Email:</label>
+            <input type="email" id="email" name="Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                title="Please enter the valid email address" required placeholder="you@gmail.com"><br><br>
+            <label for="phone">Phone number</label>
+            <input type="tel" id="tel" pattern="[6-9][0-9]{9}"><br><br>
+            <label for="message">Message</label>
+            <input type="textarea" id="message" placeholder="Message"><br><br>
+            <br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
